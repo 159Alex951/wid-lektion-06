@@ -1,13 +1,7 @@
-import Typography from "@mui/material/Typography";
+import Quakes from "./Quakes";
 
 function App() {
-  return (
-    <div>
-      <Typography variant="h1" gutterBottom>
-        Kokain :)
-      </Typography>
-    </div>
-  );
+  return <Quakes />;
 }
 
 export default App;
